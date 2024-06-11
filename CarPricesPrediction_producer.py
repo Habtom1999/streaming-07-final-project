@@ -28,7 +28,7 @@ HOST = 'localhost'  # Change to your RabbitMQ server address
 QUEUE_NAME_1 = 'vehicle_data'  # Name of the first queue for all vehicle data 
 QUEUE_NAME_2 = 'expensive_vehicles'  # Name of the second queue for expensive vehicle
 QUEUE_NAME_3 = 'excellent_condition_vehicles'  # Name of the third queue for vehicles in excellent condition
-QUEUE_NAME_4 = 'low_mileage_vehicles'  # Name of the forth queue for vehicles with low mileage
+QUEUE_NAME_4 = 'High_mileage_vehicles'  # Name of the forth queue for vehicles with high mileage
 
 # Function to send a message to a RabbitMQ queue
 def send_message(channel, queue_name, message):
