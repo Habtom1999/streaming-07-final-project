@@ -53,3 +53,4 @@ QUEUE_NAME_4 = 'High_mileage_vehicles'  # Name of the forth queue for vehicles w
 ![alt text](image-6.png)
 ![alt text](image-9.png)
 ![alt text](image-10.png)
+![alt text](image-11.png)
