@@ -37,8 +37,11 @@ This project includes a custom producer code  CarPricesPrediction_producer.py an
 The project includes CarPricesPrediction_consumer.py  to listen to and consume messages from RabbitMQ. It sets up multiple consumers, each responsible for processing messages from different queues:
 
 QUEUE_NAME_1 = 'vehicle_data'  # Name of the first queue for all vehicle data
+
 QUEUE_NAME_2 = 'expensive_vehicles'  # Name of the second queue for expensive vehicle
+
 QUEUE_NAME_3 = 'excellent_condition_vehicles'  # Name of the third queue for vehicles in excellent condition
+
 QUEUE_NAME_4 = 'low_mileage_vehicles'  # Name of the forth queue for vehicles with high mileage
 
 # Screenshots
