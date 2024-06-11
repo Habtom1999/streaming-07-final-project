@@ -42,7 +42,7 @@ QUEUE_NAME_2 = 'expensive_vehicles'  # Name of the second queue for expensive ve
 
 QUEUE_NAME_3 = 'excellent_condition_vehicles'  # Name of the third queue for vehicles in excellent condition
 
-QUEUE_NAME_4 = 'low_mileage_vehicles'  # Name of the forth queue for vehicles with high mileage
+QUEUE_NAME_4 = 'High_mileage_vehicles'  # Name of the forth queue for vehicles with high mileage
 
 # Screenshots
 
