@@ -1,6 +1,6 @@
 """
     This program listens and consumes messages from CarPricesPrediction_producer.py
-    for the car data every 5 seconds. It also receive alert if the price is too high.
+    for the car data every 5 seconds. It also receive alert if the car price is too high or if the milleage is too high based on certian condition. 
     This script sets up multiple consumers to receive and process messages 
     from different RabbitMQ queues.
     This script allows you to run consumers for four different queues simultaneously, 
